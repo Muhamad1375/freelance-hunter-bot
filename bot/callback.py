@@ -1,6 +1,6 @@
 import requests
 from config import BOT_TOKEN
-from database.db import save_favorite, save_skipped, remove_favorite, is_favorite
+from database.db import save_favorite, save_skipped, remove_favorite
 from bot.commands import send_saved_jobs
 
 BASE_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
